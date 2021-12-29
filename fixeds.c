@@ -148,7 +148,7 @@ if(tree[total-1].p[x][RSIZE+2]==SSIZE){q = q + tree[total-1].p[x+1][0] - tree[to
 }
 
 
-//TRIM THE ENDS IF THEY ARE ALL-ANCESTRAL OR NON-ANCETSRAL
+//TRIM THE ENDS IF THEY ARE ALL-ANCESTRAL OR NON-ANCESTRAL
 v2=tree[total-1].size-2;w2=0;
 while(v2>=0){
 if(tree[total-1].p[v2][RSIZE+2]>=1 && tree[total-1].p[v2][RSIZE+2]<=SSIZE-1){break;}
